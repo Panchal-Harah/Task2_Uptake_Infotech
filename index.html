@@ -32,13 +32,10 @@
   <body>
     <!-- navbar -->
 
-    <nav
-      class="navbar navbar-expand-lg container bg-transparent"
-      style="font-family: 'Poppins', serif; background-color: #fefcfb"
-    >
+    <nav class="navbar navbar-expand-lg container bg-transparent">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><img src="./images/Logo.svg" alt=""
+          ><img src="./images/Logo.svg" alt="image not found"
         /></a>
         <button
           class="navbar-toggler"
@@ -51,11 +48,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse"
-          style="font-size: 13px"
-          id="navbarSupportedContent"
-        >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
             class="d-flex navbar-nav justify-content-center mx-auto mb-2 mb-lg-0"
           >
@@ -76,16 +69,10 @@
             </li>
           </ul>
           <div class="d-flex align-items-center justify-content-center gap-3">
+            <a href="#" class="login fw-normal text-decoration-none">Login</a>
             <a
               href="#"
-              class="fw-normal text-decoration-none"
-              style="color: #fa7436"
-              >Login</a
-            >
-            <a
-              href="#"
-              class="text-white fw-bold text-decoration-none ms-4 px-3 py-2 rounded-2"
-              style="background-color: #fa7436"
+              class="signup text-white fw-bold text-decoration-none ms-4 px-3 py-2 rounded-2"
               >Sign up</a
             >
           </div>
@@ -94,90 +81,122 @@
     </nav>
 
     <!-- hero section -->
-    <section class="hero" style="background-color: #fefcfb">
+    <section class="hero my-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div
-              class="text-label my-5"
-              style="font-family: 'Volkhov', serif; font-size: 64px"
-            >
+            <div class="text-label my-5">
               Get started your exciting
-              <span style="color: #fa7436">journey</span> with us.
+              <span>journey</span> with us.
             </div>
-            <div
-              class="text-p my-5"
-              style="font-family: 'Poppins', serif; font-size: 16px"
-            >
+            <div class="text-p my-5">
               A Team of experienced tourism professionals will provide you with
               the best advice and tips for your desire place.
             </div>
             <div class="button my-5">
-              <a
-                href="#"
-                class="btn"
-                style="border: 2px solid #fa7436; color: #fa7436"
-                >Discover Now</a
-              >
+              <a href="#" class="btn">Discover Now</a>
             </div>
           </div>
           <div
             class="col-md-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./images/Hero_img.svg" />
+            <img class="hero-img" src="./images/Hero_img.svg" />
           </div>
         </div>
       </div>
-      <div
-        class="mx-auto"
-        style="width: 840px; padding: 15px; background-color: #ffffff"
-      >
+      <div class="sub-container mx-auto my-4">
         <div
           class="container-fluid d-flex justify-content-center align-items-center"
         >
           <div class="row">
             <div class="col-md-3">
               <p class="p-0">
-                Location<i
-                  class="fa-solid fa-chevron-down"
-                  style="color: #fa7436; font-size: 12px; padding-left: 6px"
-                ></i>
+                Location<i class="Location fa-solid fa-chevron-down"></i>
               </p>
-              <p class="fw-lighter p-0" style="font-size: 13px">
-                Where are you going
-              </p>
+              <p class="l-desc fw-light p-0">Where are you going</p>
             </div>
             <div class="col-md-3">
               <p class="p-0">
-                Date<i
-                  class="fa-solid fa-chevron-down"
-                  style="color: #fa7436; font-size: 12px; padding-left: 6px"
-                ></i>
+                Date<i class="date fa-solid fa-chevron-down"></i>
               </p>
-              <p class="fw-lighter p-0" style="font-size: 13px">
-                When you will go
-              </p>
+              <p class="date-desc fw-light p-0">When you will go</p>
             </div>
             <div class="col-md-3">
               <p class="p-0">
-                Guest<i
-                  class="fa-solid fa-chevron-down"
-                  style="color: #fa7436; font-size: 12px; padding-left: 6px"
-                ></i>
+                Guest<i class="guest fa-solid fa-chevron-down"></i>
               </p>
-              <p class="fw-lighter p-0" style="font-size: 13px">
-                Number of guest
-              </p>
+              <p class="g-desc fw-light p-0">Number of guest</p>
             </div>
             <div class="col-md-3 d-flex align-items-center">
               <a
                 href="#"
-                class="text-white fw-bold text-decoration-none ms-3 px-3 py-2 rounded-2 d-flex justify-content-center align-items-center"
-                style="background-color: #fa7436; width: 500px"
+                class="e-btn text-white fw-bold text-decoration-none ms-3 px-3 py-2 rounded-2 d-flex justify-content-center align-items-center"
                 >Explore Now</a
               >
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- things you need section -->
+    <section class="things my-5 pb-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div>
+            <div
+              class="text-label-things mt-5 mb-3 mx-auto d-flex justify-content-center align-items-center"
+            >
+              Things you need
+              <span> to do</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light"
+            >
+              <span>We ensure that you’ll embark on a perfectly planned,</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
+            >
+              <span>safe vacationat a price you can afford.</span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/flight Element.svg"
+              class="flight-img d-xxl-none img-fluid d-flex justify-content-center align-items-center mt-5"
+            />
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body1">
+                <img class="card-img-1 mb-4" src="./images/Signup.svg" alt="image not found">
+                <h5 class="card-title">Sign Up</h5>
+                <p class="card-text1 mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body2">
+                <img class="card-img-2 mb-4" src="./images/Money.svg" alt="image not found">
+                <h5 class="card-title">Worth of Money</h5>
+                <p class="card-text2 mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body3">
+                <img class="card-img-3 mb-4" src="./images/Travel.svg" alt="image not found">
+                <h5 class="card-title">Exciting Travel</h5>
+                <p class="card-text3 mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>  
         </div>
       </div>
     </section>

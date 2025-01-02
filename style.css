@@ -1,5 +1,129 @@
-section img{
-    height: 500px;
-    width: 680px;
-    object-fit: cover;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+.hero-img {
+  height: 500px;
+  width: 680px;
+  object-fit: cover;
+}
+
+nav {
+  font-family: "Poppins", serif;
+  background-color: #fefcfb;
+}
+
+.navbar-collapse {
+  font-size: 13px;
+}
+
+.login {
+  color: #fa7436;
+}
+
+.signup {
+  background-color: #fa7436;
+}
+
+.hero {
+  background-color: #fefcfb;
+}
+
+.text-label {
+  font-family: "Volkhov", serif;
+  font-size: 64px;
+}
+
+.text-label span {
+  color: #fa7436;
+}
+
+.text-p {
+  font-family: "Poppins", serif;
+  font-size: 14px;
+}
+
+.button a {
+  border: 2px solid #fa7436;
+  color: #fa7436;
+}
+
+.sub-container {
+  width: 840px;
+  font-family: "Poppins", serif;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.Location {
+  color: #fa7436;
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.l-desc {
+  font-size: 13px;
+}
+
+.date {
+  color: #fa7436;
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.date-desc {
+  font-size: 13px;
+}
+
+.guest {
+  color: #fa7436;
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.g-desc {
+  font-size: 13px;
+}
+
+.e-btn {
+  background-color: #fa7436;
+  width: 500px;
+}
+
+.things {
+  background-color: #f7f8fc;
+}
+
+.text-label-things {
+  font-family: "Volkhov", serif;
+  font-size: 36px;
+}
+
+.text-label-things span {
+  color: #fa7436;
+  padding-left: 8px;
+}
+
+.label-desc-things {
+  font-family: "Poppins", serif;
+  font-size: 12px;
+}
+
+.flight-img {
+    width: 100px;
+    position: absolute;
+    right: 290px;
+    top: 860px;
+} 
+
+.card-body1, .card-body2, .card-body3{
+    padding: 40px 40px 20px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text1, .card-text2, .card-text3 {
+    color: #666666;
+    font-size: 14px;
+}
+
