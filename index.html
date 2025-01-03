@@ -68,11 +68,15 @@
               <a class="nav-link" href="#">Blog</a>
             </li>
           </ul>
-          <div class="d-flex align-items-center justify-content-center gap-3">
-            <a href="#" class="login fw-normal text-decoration-none">Login</a>
+          <div
+            class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3 gap-lg-5"
+          >
+            <a href="#" class="login ms-2 fw-normal text-decoration-none"
+              >Login</a
+            >
             <a
               href="#"
-              class="signup text-white fw-normal text-decoration-none ms-4 px-3 py-2 rounded-2"
+              class="signup text-white fw-normal text-decoration-none ms-2 px-3 py-2 rounded-2"
               >Sign up</a
             >
           </div>
@@ -104,10 +108,8 @@
           </div>
         </div>
       </div>
-      <div class="sub-container mx-auto my-4">
-        <div
-          class="container-fluid d-flex justify-content-center align-items-center"
-        >
+      <div class="sub-container mx-auto my-4 d-flex justify-content-center">
+        <div class="container">
           <div class="row">
             <div class="col-md-3">
               <p class="p-0">
@@ -130,7 +132,7 @@
             <div class="col-md-3 d-flex align-items-center">
               <a
                 href="#"
-                class="e-btn text-white fw-normal text-decoration-none ms-3 px-3 py-2 rounded-2 d-flex justify-content-center align-items-center"
+                class="e-btn text-white fw-normal text-decoration-none ms-md-3 px-3 py-2 rounded-2 d-flex justify-content-center align-items-center"
                 >Explore Now</a
               >
             </div>
@@ -142,24 +144,22 @@
     <!-- things you need section -->
     <section class="things pb-5">
       <div class="container">
-        <div class="row d-flex">
-          <div>
-            <div
-              class="text-label-things mt-5 mb-3 d-flex justify-content-center align-items-center"
-            >
-              Things you need
-              <span class="d-flex"> to do</span>
-            </div>
-            <div
-              class="label-desc-things d-flex justify-content-center align-items-center fw-light"
-            >
-              <span>We ensure that you’ll embark on a perfectly planned,</span>
-            </div>
-            <div
-              class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
-            >
-              <span class="mt-1">safe vacationat a price you can afford.</span>
-            </div>
+        <div class="row">
+          <div
+            class="text-label-things mt-5 mb-3 d-flex justify-content-center align-items-center"
+          >
+            Things you need
+            <span> to do</span>
+          </div>
+          <div
+            class="label-desc-things d-flex justify-content-center align-items-center fw-light"
+          >
+            <span>We ensure that you’ll embark on a perfectly planned,</span>
+          </div>
+          <div
+            class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
+          >
+            <span class="mt-1">safe vacationat a price you can afford.</span>
           </div>
           <div>
             <!-- <img
@@ -639,20 +639,10 @@
               Get update with
               <span> latest blog</span>
             </div>
-            <div
-              class="label-desc-things d-flex justify-content-center align-items-center fw-light"
-            >
-              <span>Discover our fantastic early booking discounts</span>
-            </div>
-            <div
-              class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
-            >
-              <span class="mt-1">& start planning your journey.</span>
-            </div>
           </div>
         </div>
         <!-- cards -->
-        <div class="row d-flex justify-content-between">
+        <div class="row d-flex justify-content-between mt-5">
           <div class="col-md-3 mb-4">
             <div>
               <div class="e-card-body1">
@@ -723,14 +713,51 @@
           </div>
         </div>
         <div
-          class="pagging2 d-flex align-items-center justify-content-center gap-3 mt-2 mb-4"
+          class="pagging2 d-flex align-items-center justify-content-center gap-3 mt-2 mb-5"
         >
-          <p class="first w-10px h-10px rounded-circle"></p>
-          <p class="second w-10px h-10px rounded-circle"></p>
-          <p class="third w-10px h-10px rounded-circle"></p>
+          <p class="first rounded-circle"></p>
+          <p class="second rounded-circle"></p>
+          <p class="third rounded-circle"></p>
         </div>
       </div>
     </section>
+
+    <!-- deal & offer section -->
+    <section class="offer my-5">
+      <div class="container deal-offer rounded pt-5">
+        <div class="">
+          <div
+            class="offer-title text-white d-flex justify-content-center align-items-center"
+          >
+            <span>Subscribe and get exclusive </span>
+          </div>
+          <div
+            class="offer-title text-white d-flex justify-content-center align-items-center"
+          >
+            <span class="mt-1">deals & offer</span>
+          </div>
+        </div>
+        <div class="Subscribe d-md-flex justify-content-center py-5">
+          <form class="d-flex align-items-center input-form p-1 rounded">
+            <img class="ms-2" src="./images/email-img.svg" alt="" />
+            <input
+              class="form-control me-2 border-0"
+              type="search"
+              placeholder="Enter your mail"
+              aria-label="Search"
+            />
+            <a
+              href="#"
+              class="signup d-flex align-items-center text-white fw-normal text-decoration-none px-3 py-2 rounded-2"
+              >Subscribe</a
+            >
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

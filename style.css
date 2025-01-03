@@ -1,8 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .hero-img {
   height: 500px;
   width: 680px;
@@ -99,7 +94,6 @@ nav {
 
 .e-btn {
   background-color: #fa7436;
-  width: 500px;
   font-size: 14px;
 }
 
@@ -287,4 +281,21 @@ nav {
   width: 10px;
   height: 10px;
   background-color: #E5E5E5;
+}
+
+.deal-offer {
+  background-color: #FA7436;
+}
+
+.offer-title {
+  font-family: 'Volkhov',sans-serif;
+  font-size: 48px;
+}
+
+.input-form {
+  background-color: #FFFFFF;
+}
+
+.Subscribe input {
+  width: 500px;
 }
