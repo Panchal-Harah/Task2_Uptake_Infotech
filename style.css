@@ -14,6 +14,10 @@ nav {
   background-color: #fefcfb;
 }
 
+.nav-item {
+    color: #222222;
+}
+
 .navbar-collapse {
   font-size: 13px;
 }
@@ -30,7 +34,7 @@ nav {
   background-color: #fefcfb;
 }
 
-.text-label {
+.hero .text-label {
   font-family: "Volkhov", serif;
   font-size: 64px;
 }
@@ -39,9 +43,13 @@ nav {
   color: #fa7436;
 }
 
-.text-p {
+.hero-desc {
+    color: #666666;
+}
+
+.hero .text-p {
   font-family: "Poppins", serif;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .button a {
@@ -64,6 +72,7 @@ nav {
 
 .l-desc {
   font-size: 13px;
+  color: #666666;
 }
 
 .date {
@@ -74,6 +83,7 @@ nav {
 
 .date-desc {
   font-size: 13px;
+  color: #666666;
 }
 
 .guest {
@@ -84,11 +94,13 @@ nav {
 
 .g-desc {
   font-size: 13px;
+  color: #666666;
 }
 
 .e-btn {
   background-color: #fa7436;
   width: 500px;
+  font-size: 14px;
 }
 
 .things {
@@ -109,12 +121,12 @@ nav {
   font-family: "Poppins", serif;
   font-size: 12px;
 }
-
+ 
 .flight-img {
     width: 100px;
     position: absolute;
     right: 290px;
-    top: 860px;
+    top: 880px;
 } 
 
 .card-body1, .card-body2, .card-body3{
@@ -127,3 +139,152 @@ nav {
     font-size: 14px;
 }
 
+.deals-discount {
+    background-color: #FEFCFB;
+}
+
+.e-card-img-1, .e-card-img-2, .e-card-img-3, .e-card-img-4 {
+    width: 100%;
+}
+
+.rating {
+  color: #666666;
+}
+
+.strike {
+    color: #999999;
+}
+
+.loc-img {
+  width: 14px;
+  margin-left: 5px;
+}
+
+.badge1 {
+    background-color: #fa743632;
+    color: #FA7436;
+    font-size: 16px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.pagging img{
+  width: 25px;
+}
+
+.pagging .img1, .img2{
+  cursor: pointer;
+}
+
+.b-card-img-1, .b-card-img-2, .b-card-img-3, .b-card-img-4 {
+  width: 100%;
+}
+
+.rate {
+  color: #FA7436;
+  font-size: 22px;
+}
+
+.nav-loc-desc {
+  color: #666666;
+}
+
+.about {
+  background-color: #F7F8FC;
+}
+
+.about-text-label {
+  font-family: "Volkhov", serif;
+  font-size: 48px; 
+}
+
+.about-text-label span {
+  color: #fa7436;
+}
+
+.about-desc {
+  color: #666666; 
+}
+
+.about .text-p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+}
+
+.about-pagging img{
+  width: 25px;
+}
+
+.about-pagging .img1, .img2{
+  cursor: pointer;
+}
+
+.box1 {
+  width: 480px;
+  height: 220px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box2 {
+  font-family: 'Poppins', sans-serif;
+  width: 480px;
+  height: 225px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  background-color: #66666614 ;
+}
+
+.box-desc {
+  color: #444444;
+  font-size: 16px;
+}
+
+.about-box-title .name {
+  font-size: 18px;
+}
+
+.about-box-title .name-desc {
+  font-size: 14px;
+}
+
+.about-box2-title .name {
+  font-size: 18px;  
+}
+
+.about-box2-title .name-desc {
+  font-size: 14px;
+}
+
+.about-box2-title{
+  color: #9c9c9c;
+}
+
+.blog-card-title {
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+}
+
+.blog-card-text1 {
+  color: #999999;
+}
+
+.pagging2 .first {
+  width: 10px;
+  height: 10px;
+  background-color: #E5E5E5;
+}
+
+.pagging2 .second {
+  width: 10px;
+  height: 10px;
+  background-color: #FA7436;
+}
+
+.pagging2 .third {
+  width: 10px;
+  height: 10px;
+  background-color: #E5E5E5;
+}

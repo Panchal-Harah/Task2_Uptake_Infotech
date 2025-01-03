@@ -32,7 +32,7 @@
   <body>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg container bg-transparent">
+    <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="./images/Logo.svg" alt="image not found"
@@ -72,7 +72,7 @@
             <a href="#" class="login fw-normal text-decoration-none">Login</a>
             <a
               href="#"
-              class="signup text-white fw-bold text-decoration-none ms-4 px-3 py-2 rounded-2"
+              class="signup text-white fw-normal text-decoration-none ms-4 px-3 py-2 rounded-2"
               >Sign up</a
             >
           </div>
@@ -81,7 +81,7 @@
     </nav>
 
     <!-- hero section -->
-    <section class="hero my-5">
+    <section class="hero py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -89,7 +89,7 @@
               Get started your exciting
               <span>journey</span> with us.
             </div>
-            <div class="text-p my-5">
+            <div class="hero-desc text-p my-5">
               A Team of experienced tourism professionals will provide you with
               the best advice and tips for your desire place.
             </div>
@@ -130,7 +130,7 @@
             <div class="col-md-3 d-flex align-items-center">
               <a
                 href="#"
-                class="e-btn text-white fw-bold text-decoration-none ms-3 px-3 py-2 rounded-2 d-flex justify-content-center align-items-center"
+                class="e-btn text-white fw-normal text-decoration-none ms-3 px-3 py-2 rounded-2 d-flex justify-content-center align-items-center"
                 >Explore Now</a
               >
             </div>
@@ -140,15 +140,15 @@
     </section>
 
     <!-- things you need section -->
-    <section class="things my-5 pb-5">
+    <section class="things pb-5">
       <div class="container">
         <div class="row d-flex">
           <div>
             <div
-              class="text-label-things mt-5 mb-3 mx-auto d-flex justify-content-center align-items-center"
+              class="text-label-things mt-5 mb-3 d-flex justify-content-center align-items-center"
             >
               Things you need
-              <span> to do</span>
+              <span class="d-flex"> to do</span>
             </div>
             <div
               class="label-desc-things d-flex justify-content-center align-items-center fw-light"
@@ -158,45 +158,576 @@
             <div
               class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
             >
-              <span>safe vacationat a price you can afford.</span>
+              <span class="mt-1">safe vacationat a price you can afford.</span>
             </div>
           </div>
           <div>
-            <img
+            <!-- <img
               src="./images/flight Element.svg"
-              class="flight-img d-xxl-none img-fluid d-flex justify-content-center align-items-center mt-5"
+              class="flight-img d-xl-none img-fluid d-flex justify-content-center align-items-center mt-5"
+            /> -->
+          </div>
+        </div>
+        <!-- cards -->
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body1">
+                <img
+                  class="card-img-1 mb-4"
+                  src="./images/Signup.svg"
+                  alt="image not found"
+                />
+                <h5 class="card-title">Sign Up</h5>
+                <p class="card-text1 mt-3">
+                  Completes all the work associated with planning and processing
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body2">
+                <img
+                  class="card-img-2 mb-4"
+                  src="./images/Money.svg"
+                  alt="image not found"
+                />
+                <h5 class="card-title">Worth of Money</h5>
+                <p class="card-text2 mt-3">
+                  After successful access then book from exclusive deals &
+                  pricing
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body3">
+                <img
+                  class="card-img-3 mb-4"
+                  src="./images/Travel.svg"
+                  alt="image not found"
+                />
+                <h5 class="card-title">Exciting Travel</h5>
+                <p class="card-text3 mt-3">
+                  Start and explore a wide range of exciting travel experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- deals & discount section -->
+    <section class="deals-discount py-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div>
+            <div
+              class="text-label-things mb-3 mx-auto d-flex justify-content-center align-items-center"
+            >
+              Exclusive
+              <span> deals & discounts</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light"
+            >
+              <span>Discover our fantastic early booking discounts</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
+            >
+              <span class="mt-1">& start planning your journey.</span>
+            </div>
+          </div>
+        </div>
+        <!-- cards -->
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <div class="e-card-body1">
+                <img
+                  class="e-card-img-1 object-fit-containt border rounded"
+                  src="./images/Madrid.svg"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6">Madrid</h5>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.8</span
+                    >
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/location.svg"
+                      alt="image not found"
+                    /><span class="mx-1">Spain</span>
+                  </p>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <s class="strike mx-2">$950</s
+                    ><span class="badge1">$850</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <div class="e-card-body2">
+                <img
+                  class="e-card-img-2 rounded"
+                  src="./images/firenze.svg"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6">Firenze</h5>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.5</span
+                    >
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/location.svg"
+                      alt="image not found"
+                    /><span class="mx-1">Italy</span>
+                  </p>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <s class="strike mx-2">$850</s
+                    ><span class="badge1">$750</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <div class="e-card-body3">
+                <img
+                  class="e-card-img-3"
+                  src="./images/paris.svg"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6">Paris</h5>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.4</span
+                    >
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/location.svg"
+                      alt="image not found"
+                    /><span class="mx-1">France</span>
+                  </p>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <s class="strike mx-2">$699</s
+                    ><span class="badge1">$599</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <div class="e-card-body4">
+                <img
+                  class="e-card-img-4"
+                  src="./images/London.svg"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6">London</h5>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.8</span
+                    >
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/location.svg"
+                      alt="image not found"
+                    /><span class="mx-1">UK</span>
+                  </p>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <s class="strike mx-2">$850</s
+                    ><span class="badge1">$850</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pagging d-flex align-items-center justify-content-center gap-3 mt-2 mb-4"
+        >
+          <img
+            class="img1"
+            src="./images/pageing_Btn-1.svg"
+            alt="image not found"
+          />
+          <img
+            class="img2"
+            src="./images/paging_Btn-2.svg"
+            alt="image not found"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- vacation plan section -->
+    <section class="deals-discount py-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div>
+            <div
+              class="text-label-things mb-3 mx-auto d-flex justify-content-center align-items-center"
+            >
+              Best
+              <span> vacation plan</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light"
+            >
+              <span
+                >Plan your perfect vacation with our travel agency. Choose</span
+              >
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-1"
+            >
+              <span class="mt-1">among hundreds of all-inclusive offers!</span>
+            </div>
+          </div>
+          <div
+            class="pagging d-flex align-items-center justify-content-end gap-3 mb-3"
+          >
+            <img
+              class="img1"
+              src="./images/pageing_Btn-1.svg"
+              alt="image not found"
+            />
+            <img
+              class="img2"
+              src="./images/paging_Btn-2.svg"
+              alt="image not found"
             />
           </div>
         </div>
-
+        <!-- cards -->
         <div class="row d-flex justify-content-between">
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
-              <div class="card-body1">
-                <img class="card-img-1 mb-4" src="./images/Signup.svg" alt="image not found">
-                <h5 class="card-title">Sign Up</h5>
-                <p class="card-text1 mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="b-card-body1">
+                <img
+                  class="b-card-img-1 object-fit-containt border rounded"
+                  src="./images/Italy.png"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6 mt-1">Rome, Italty</h5>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <span class="rate fw-bold">$5,42k</span>
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/Navigation.svg"
+                      alt="image not found"
+                    /><span class="mx-2 nav-loc-desc">10 Days Trip</span>
+                  </p>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.8</span
+                    >
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
-              <div class="card-body2">
-                <img class="card-img-2 mb-4" src="./images/Money.svg" alt="image not found">
-                <h5 class="card-title">Worth of Money</h5>
-                <p class="card-text2 mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="b-card-body2">
+                <img
+                  class="b-card-img-2 rounded"
+                  src="./images/UK.svg"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6 mt-1">London,UK</h5>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <span class="rate fw-bold">$2,42k</span>
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/Navigation.svg"
+                      alt="image not found"
+                    /><span class="mx-2 nav-loc-desc">07 Days Trip</span>
+                  </p>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.7</span
+                    >
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
-              <div class="card-body3">
-                <img class="card-img-3 mb-4" src="./images/Travel.svg" alt="image not found">
-                <h5 class="card-title">Exciting Travel</h5>
-                <p class="card-text3 mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="b-card-body3">
+                <img
+                  class="b-card-img-3"
+                  src="./images/Japan.svg"
+                  alt="image not found"
+                />
+                <div class="row px-3 mt-3">
+                  <h5 class="card-title col-6 mt-1">Osaka,Japan</h5>
+                  <p
+                    class="d-flex col-6 align-items-center justify-content-end"
+                  >
+                    <span class="rate fw-bold">$5,42k</span>
+                  </p>
+                </div>
+                <div class="row px-3">
+                  <p class="d-flex col-6 align-items-center">
+                    <img
+                      class="loc-img"
+                      src="./images/Navigation.svg"
+                      alt="image not found"
+                    /><span class="mx-2 nav-loc-desc">10 Days Trip</span>
+                  </p>
+                  <p
+                    class="d-flex align-items-center col-6 d-flex justify-content-end"
+                  >
+                    <img src="./images/star 1.svg" alt="image not found" /><span
+                      class="rating mx-1"
+                      >4.8</span
+                    >
+                  </p>
+                </div>
               </div>
             </div>
-          </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section class="about py-5">
+      <div class="container">
+        <div class="row">
+          <div class="about-title col-md-6 pe-5">
+            <div class="about-text-label mt-5">
+              What people say
+              <span>about Us.</span>
+            </div>
+            <div class="about-desc text-p my-4 pe-5">
+              Our Clients send us bunch of smilies with our services and we love
+              them.
+            </div>
+            <div
+              class="about-pagging d-flex align-items-center justify-content-start gap-3"
+            >
+              <img
+                class="img1"
+                src="./images/pageing_Btn-1.svg"
+                alt="image not found"
+              />
+              <img
+                class="img2"
+                src="./images/paging_Btn-2.svg"
+                alt="image not found"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 boxes mt-4 d-flex justify-content-center align-items-center"
+          >
+            <div class="my-5 position-relative pb-5">
+              <div
+                class="box1 z-1 bg-white me-4 rounded p-4 position-relative shadow"
+              >
+                <p class="box-desc pe-5 mb-0">
+                  "On the Windows talking painted pasture yet its express
+                  parties use. Sure last upon he same as knew next. Of believed
+                  or diverted no."
+                </p>
+                <div class="about-box-title">
+                  <p class="name mt-5 mb-1 fw-bold">Mike taylor</p>
+                  <p class="name-desc mb-0">Lahore, Pakistan</p>
+                </div>
+                <img
+                  class="position-absolute top-0 start-0 translate-middle"
+                  src="./images/about-img.svg"
+                  alt="image not found"
+                />
+              </div>
+              <div
+                class="box2 border p-4 border-gery shadow rounded d-flex align-items-end"
+              >
+                <div class="about-box2-title">
+                  <p class="name mb-1 fw-bold">Chris Thomas</p>
+                  <p class="name-desc mb-0">CEO of Red Button</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- latest blog -->
+    <section class="deals-discount py-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div>
+            <div
+              class="text-label-things mb-3 mx-auto d-flex justify-content-center align-items-center"
+            >
+              Get update with
+              <span> latest blog</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light"
+            >
+              <span>Discover our fantastic early booking discounts</span>
+            </div>
+            <div
+              class="label-desc-things d-flex justify-content-center align-items-center fw-light mb-5"
+            >
+              <span class="mt-1">& start planning your journey.</span>
+            </div>
+          </div>
+        </div>
+        <!-- cards -->
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-3 mb-4">
+            <div>
+              <div class="e-card-body1">
+                <img
+                  class="e-card-img-1 mb-2 object-fit-containt border rounded"
+                  src="./images/1.svg"
+                  alt="image not found"
+                />
+                <div class="mt-2">
+                  <p class="blog-card-title fw-normal fs-6">
+                    The Amazing Difference a Year of Travelling .
+                  </p>
+                  <p class="blog-card-text1 mt-3">July 27, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div>
+              <div class="e-card-body2">
+                <img
+                  class="e-card-img-2 mb-2 rounded"
+                  src="./images/2.svg"
+                  alt="image not found"
+                />
+                <div class="mt-2">
+                  <p class="blog-card-title fw-normal fs-6">
+                    Travel far enough, you meet yourself.
+                  </p>
+                  <p class="blog-card-text1 mt-3">July 27, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div>
+              <div class="e-card-body3">
+                <img
+                  class="e-card-img-3 mb-2"
+                  src="./images/3.svg"
+                  alt="image not found"
+                />
+                <div class="mt-2">
+                  <p class="blog-card-title fw-normal fs-6">
+                    How to Save Money While Visiting Africa.
+                  </p>
+                  <p class="blog-card-text1 mt-3">July 27, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div>
+              <div class="e-card-body4">
+                <img
+                  class="e-card-img-4 mb-2"
+                  src="./images/4.svg"
+                  alt="image not found"
+                />
+                <div class="mt-2">
+                  <p class="blog-card-title fw-normal fs-6">
+                    Reflections on 5 Months of Travel: Time to Hang
+                  </p>
+                  <p class="blog-card-text1 mt-3">July 27, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pagging2 d-flex align-items-center justify-content-center gap-3 mt-2 mb-4"
+        >
+          <p class="first w-10px h-10px rounded-circle"></p>
+          <p class="second w-10px h-10px rounded-circle"></p>
+          <p class="third w-10px h-10px rounded-circle"></p>
         </div>
       </div>
     </section>
