@@ -283,6 +283,10 @@ nav {
   background-color: #E5E5E5;
 }
 
+.offer {
+  background-color: #FEFCFB;
+}
+
 .deal-offer {
   background-color: #FA7436;
 }
@@ -298,4 +302,27 @@ nav {
 
 .Subscribe input {
   width: 500px;
+}
+
+.footer {
+  background-color: #F7F8FC;
+}
+
+.footer-desc {
+  font-family: 'Poppins',sans-serif;
+}
+
+.list-heading {
+  font-family: 'Poppins',sans-serif;
+  color: #222222;
+}
+
+.list, .text-items {
+  font-family: 'Poppins',sans-serif;
+  color: #666666;
+}
+
+.sub-footer p{
+  font-family: 'Poppins',sans-serif;
+  color: #666666;
 }
