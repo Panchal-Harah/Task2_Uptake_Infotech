@@ -1,8 +1,8 @@
-/* .hero-img {
-  height: 500px;
-  width: 680px;
-  object-fit: cover;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 nav {
   font-family: "Poppins", serif;
@@ -10,7 +10,7 @@ nav {
 }
 
 .nav-item {
-    color: #222222;
+  color: #222222;
 }
 
 .navbar-collapse {
@@ -31,7 +31,14 @@ nav {
 
 .hero .text-label {
   font-family: "Volkhov", serif;
-  font-size: 64px;
+  font-size: 56px;  
+}
+
+@media screen and (max-width: 768px) {
+  .hero .text-label {
+    font-family: "Volkhov", serif;
+    font-size: 40px;
+  }
 }
 
 .text-label span {
@@ -39,12 +46,16 @@ nav {
 }
 
 .hero-desc {
-    color: #666666;
+  color: #666666;
 }
 
 .hero .text-p {
   font-family: "Poppins", serif;
   font-size: 20px;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .button a {
@@ -189,7 +200,7 @@ nav {
 
 .about-text-label {
   font-family: "Volkhov", serif;
-  font-size: 48px; 
+  font-size: 48px;
 }
 
 .about-text-label span {
@@ -227,7 +238,33 @@ nav {
   position: absolute;
   top: 30%;
   left: 10%;
-  background-color: #66666614 ;
+  background-color: #66666614;
+}
+
+.box-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 576px) {
+  .box2 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+
+  .box1 {
+    width: 100%;
+    height: inherit;
+  }
+
+  .box-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
 }
 
 .box-desc {
