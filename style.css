@@ -1,8 +1,8 @@
-.hero-img {
+/* .hero-img {
   height: 500px;
   width: 680px;
   object-fit: cover;
-}
+} */
 
 nav {
   font-family: "Poppins", serif;
@@ -53,7 +53,6 @@ nav {
 }
 
 .sub-container {
-  width: 840px;
   font-family: "Poppins", serif;
   padding: 15px;
   background-color: #ffffff;
