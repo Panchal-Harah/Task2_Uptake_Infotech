@@ -63,6 +63,11 @@ nav {
   color: #fa7436;
 }
 
+.button .btn:hover{
+  background-color: #fa7436;
+  color: white;
+}
+
 .sub-container {
   font-family: "Poppins", serif;
   padding: 15px;
