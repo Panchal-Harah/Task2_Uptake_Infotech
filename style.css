@@ -31,7 +31,7 @@ nav {
 
 .hero .text-label {
   font-family: "Volkhov", serif;
-  font-size: 56px;  
+  font-size: 56px;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,7 +63,7 @@ nav {
   color: #fa7436;
 }
 
-.button .btn:hover{
+.button .btn:hover {
   background-color: #fa7436;
   color: white;
 }
@@ -130,30 +130,37 @@ nav {
   font-family: "Poppins", serif;
   font-size: 12px;
 }
- 
-.flight-img {
-    width: 100px;
-    position: absolute;
-    right: 290px;
-    top: 880px;
-} 
 
-.card-body1, .card-body2, .card-body3{
-    padding: 40px 40px 20px 40px;
-    font-family: 'Poppins', sans-serif;
+.flight-img {
+  width: 100px;
+  position: absolute;
+  right: 290px;
+  top: 880px;
 }
 
-.card-text1, .card-text2, .card-text3 {
-    color: #666666;
-    font-size: 14px;
+.card-body1,
+.card-body2,
+.card-body3 {
+  padding: 40px 40px 20px 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-text1,
+.card-text2,
+.card-text3 {
+  color: #666666;
+  font-size: 14px;
 }
 
 .deals-discount {
-    background-color: #FEFCFB;
+  background-color: #fefcfb;
 }
 
-.e-card-img-1, .e-card-img-2, .e-card-img-3, .e-card-img-4 {
-    width: 100%;
+.e-card-img-1,
+.e-card-img-2,
+.e-card-img-3,
+.e-card-img-4 {
+  width: 100%;
 }
 
 .rating {
@@ -161,37 +168,45 @@ nav {
 }
 
 .strike {
-    color: #999999;
+  color: #999999;
 }
 
 .loc-img {
-  width: 14px;
+  width: 14px !important;
   margin-left: 5px;
 }
 
-.badge1 {
-    background-color: #fa743632;
-    color: #FA7436;
-    font-size: 16px;
-    padding: 2px 6px 2px 6px;
-    border-radius: 10px;
-    font-weight: 600;
+.star {
+  width: 14px !important;
 }
 
-.pagging img{
+.badge1 {
+  background-color: #fa743632;
+  color: #fa7436;
+  font-size: 16px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.pagging img {
   width: 25px;
 }
 
-.pagging .img1, .img2{
+.pagging .img1,
+.img2 {
   cursor: pointer;
 }
 
-.b-card-img-1, .b-card-img-2, .b-card-img-3, .b-card-img-4 {
+.b-card-img-1,
+.b-card-img-2,
+.b-card-img-3,
+.b-card-img-4 {
   width: 100%;
 }
 
 .rate {
-  color: #FA7436;
+  color: #fa7436;
   font-size: 22px;
 }
 
@@ -200,7 +215,7 @@ nav {
 }
 
 .about {
-  background-color: #F7F8FC;
+  background-color: #f7f8fc;
 }
 
 .about-text-label {
@@ -213,7 +228,7 @@ nav {
 }
 
 .about-desc {
-  color: #666666; 
+  color: #666666;
 }
 
 .about .text-p {
@@ -221,11 +236,12 @@ nav {
   font-size: 16px;
 }
 
-.about-pagging img{
+.about-pagging img {
   width: 25px;
 }
 
-.about-pagging .img1, .img2{
+.about-pagging .img1,
+.img2 {
   cursor: pointer;
 }
 
@@ -233,11 +249,11 @@ nav {
   width: 480px;
   height: 220px;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .box2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 480px;
   height: 225px;
   position: absolute;
@@ -250,7 +266,7 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 576px) {
@@ -286,19 +302,19 @@ nav {
 }
 
 .about-box2-title .name {
-  font-size: 18px;  
+  font-size: 18px;
 }
 
 .about-box2-title .name-desc {
   font-size: 14px;
 }
 
-.about-box2-title{
+.about-box2-title {
   color: #9c9c9c;
 }
 
 .blog-card-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
 }
 
@@ -309,49 +325,50 @@ nav {
 .pagging2 .first {
   width: 10px;
   height: 10px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .pagging2 .second {
   width: 10px;
   height: 10px;
-  background-color: #FA7436;
+  background-color: #fa7436;
 }
 
 .pagging2 .third {
   width: 10px;
   height: 10px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
-.owl-theme .owl-nav {
+/* .owl-theme .owl-nav {
   display: none;
-}
+} */
 
-.owl-theme .owl-dots, .owl-theme .owl-nav {
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
   margin-top: 10px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span {
   /* background: #869791; */
-  background-color: #fa7436;
+  background-color: #fa7436 !important;
 }
 
 .offer {
-  background-color: #FEFCFB;
+  background-color: #fefcfb;
 }
 
 .deal-offer {
-  background-color: #FA7436;
+  background-color: #fa7436;
 }
 
 .offer-title {
-  font-family: 'Volkhov',sans-serif;
+  font-family: "Volkhov", sans-serif;
   font-size: 48px;
 }
 
 .input-form {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .Subscribe input {
@@ -359,24 +376,25 @@ nav {
 }
 
 .footer {
-  background-color: #F7F8FC;
+  background-color: #f7f8fc;
 }
 
 .footer-desc {
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .list-heading {
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
 }
 
-.list, .text-items {
-  font-family: 'Poppins',sans-serif;
+.list,
+.text-items {
+  font-family: "Poppins", sans-serif;
   color: #666666;
 }
 
-.sub-footer p{
-  font-family: 'Poppins',sans-serif;
+.sub-footer p {
+  font-family: "Poppins", sans-serif;
   color: #666666;
 }
